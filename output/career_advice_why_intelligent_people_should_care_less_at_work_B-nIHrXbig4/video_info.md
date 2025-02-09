@@ -4,7 +4,7 @@ category: career
 type: video-notes
 source: youtube
 videoId: B-nIHrXbig4
-createdDate: 2025/02/04
+createdDate: 2025/02/09
 tags:
   - career-advice
   - corporate-life
@@ -35,6 +35,7 @@ career_advice_why_intelligent_people_should_care_less_at_work_B-nIHrXbig4
 - [x] Transcript downloaded
 - [x] Key points extracted
 - [x] Summary generated
+
 
 
 

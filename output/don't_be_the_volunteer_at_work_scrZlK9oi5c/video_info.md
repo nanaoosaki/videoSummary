@@ -4,7 +4,7 @@ category: career
 type: video-notes
 source: youtube
 videoId: scrZlK9oi5c
-createdDate: 2025/02/04
+createdDate: 2025/02/09
 tags:
   - career-advice
   - corporate-life
@@ -35,6 +35,7 @@ don't_be_the_volunteer_at_work_scrZlK9oi5c
 - [x] Transcript downloaded
 - [x] Key points extracted
 - [x] Summary generated
+
 
 
 

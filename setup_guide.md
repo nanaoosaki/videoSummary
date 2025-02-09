@@ -207,3 +207,52 @@ python ./tools/web_scraper.py --max-concurrent 3 URL1 URL2 URL3
 ```powershell
 python ./tools/search_engine.py "your search keywords"
 ``` 
+
+## Git Repository Setup Best Practices
+
+### Initial Setup
+```powershell
+# Initialize Git repository
+git init
+
+# Configure line endings for Windows
+git config --global core.autocrlf true
+
+# Create initial commit
+git add .
+git commit -F commit_msg.txt  # Use a file for multiline commit messages
+
+# Add remote and push (with force if needed)
+git remote add origin https://github.com/your-username/your-repo.git
+git push -u origin master --force  # Use force only when necessary
+```
+
+### Common Git Issues and Solutions
+
+1. **Line Ending Issues (Windows)**
+   - **Problem**: Git shows changes in files you haven't modified
+   - **Solution**: Configure core.autocrlf
+     ```powershell
+     git config --global core.autocrlf true
+     ```
+
+2. **Multiline Commit Messages**
+   - **Problem**: Cursor's limit with multiline input
+   - **Solution**: Write message to file and use -F flag
+     ```powershell
+     git commit -F commit_msg.txt
+     ```
+
+3. **Repository Connection Issues**
+   - **Problem**: Unable to push to remote
+   - **Solutions**:
+     - Verify remote URL: `git remote -v`
+     - Check repository initialization: `git status`
+     - Force push if needed: `git push -u origin master --force`
+
+4. **Best Practices**
+   - Always initialize Git before adding files
+   - Use proper line ending configuration for Windows
+   - Store multiline commit messages in files
+   - Include "[Cursor] " prefix in commit messages and PR titles
+   - Verify repository state before major operations 

@@ -4,7 +4,7 @@ category: career
 type: video-notes
 source: youtube
 videoId: KSjlFBt3mho
-createdDate: 2025/02/04
+createdDate: 2025/02/09
 tags:
   - career-advice
   - corporate-life
@@ -35,6 +35,8 @@ KSjlFBt3mho
 - [x] Transcript downloaded
 - [x] Key points extracted
 - [x] Summary generated
+
+
 
 
 

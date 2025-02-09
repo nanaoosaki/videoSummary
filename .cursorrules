@@ -253,6 +253,19 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
      - Minimize API calls to YouTube
      - Efficient text processing with regex
 
+- Git Repository Setup on Windows:
+  - Always configure line endings properly: `git config --global core.autocrlf true`
+  - For repository initialization:
+    1. Start with `git init` in the correct directory
+    2. Configure line endings before adding files
+    3. Use commit message files for multiline commits
+    4. Add remote and verify connection before pushing
+  - Common fixes:
+    - Use `git commit -F filename` for multiline commit messages
+    - Include "[Cursor] " prefix in commit messages and PR titles
+    - Use `--force` push only when necessary and safe
+    - Always verify repository state with `git status` before major operations
+
 ## Current Status / Progress Tracking
 
 Project has been completed successfully with improved functionality:
